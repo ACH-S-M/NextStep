@@ -3,6 +3,7 @@ import { Head  } from '@inertiajs/react';
 import SidebarLogin from '../components/ui/sidebarLogin';
 import HeaderLogo from '../components/ui/brandLogo';
 import Post from '../components/postingan';
+import PostwithPhoto from '../components/PostinganFoto';
 export default function Welcome() {
 
     return (
@@ -20,14 +21,14 @@ export default function Welcome() {
                     </div>
                         <div className="main w-1/2 ml-20">
                                     <Post
-                                    user="Hubert Rey"
+                                    user="Muhamad Ihsan"
                                     time="2 jam yang lalu"
-                                    content={`Haloo, kami dari PT. Growtopia Hubner menawarkan pekerjaan remot bagi lulusan Sistem Informasi, yang berminat lamar:\n@hubertLORD@gmail.com`}/>
+                                    content={`Test Komponen HALO HALO`}/>
 
-                                    <Post
-                                    user="Hubert Rey"
-                                    time="2 jam yang lalu"
-                                    content={`Haloo, kami dari PT. Growtopia Hubner menawarkan pekerjaan remot bagi lulusan Sistem Informasi, yang berminat lamar:\n@hubertLORD@gmail.com`}/>
+                                    <PostwithPhoto
+                                    user="Ihza maulana"
+                                    time="15 jam yang lalu"
+                                    content={`Dibutuhkan segera Backend spesialis dengan syarat memiliki pengalaman 2 tahun di bahasa GO dan Arsitektur Microservise`}/>
 
                         </div>
                  </div>
